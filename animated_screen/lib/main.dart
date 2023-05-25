@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Demo',
-      home: AnimatedSplashScreen(splash: Image.asset('assets/images/carbuddy.png'),duration: 3000,
+      home: AnimatedSplashScreen(splash: Image.asset('assets/images/carbuddy.jpg'),duration: 3000,
       splashTransition: SplashTransition.fadeTransition,
       backgroundColor: Colors.blueGrey,
       nextScreen: HomePage()),
